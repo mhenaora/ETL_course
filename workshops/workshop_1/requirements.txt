@@ -1,0 +1,16 @@
+# dvc[s3]
+jupyter
+pyyaml
+pandas
+psycopg2
+sqlalchemy
+# matplotlib
+# numpy
+# scipy
+# scikit-learn
+# seaborn
+# pymongo
+# pydot
+# pydash
+# plotly
+# python-dotenv
