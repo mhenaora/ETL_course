@@ -191,5 +191,5 @@ cython_debug/
 Thumbs.db
 
 # Ignorar data files
-final_workshop/data/**/*.csv
-final_workshop/data/**/*.json
+# final_workshop/data/**/*.csv
+# final_workshop/data/**/*.json
