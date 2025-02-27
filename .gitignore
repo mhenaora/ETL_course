@@ -172,3 +172,24 @@ cython_debug/
 
 # Congif Yamal files
 *.yaml
+
+# Ignorar archivos de DVC
+.dvc/
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+.dvc/plots/
+
+# Ignorar archivos de configuración y temporales
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar data files
+final_workshop/data/**/*.csv
+final_workshop/data/**/*.json
