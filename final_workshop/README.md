@@ -17,10 +17,6 @@ Follow guide reference at ```docs/ETL_FINAL_WORKSHOP_MANUEL_HENAO.pdf```
 To install and run the script, follow these steps:
 
 ```bash
-# Clone Repository
-git clone https://github.com/mhenaora/ETL_course.git
-cd final_workshop/
-
 # Create venv 
 python3 -m venv env
 source env/bin/activate # source env/Scripts/activate 
@@ -34,8 +30,8 @@ cd src/
 
 ## Usage
 
-```
-Make sure to include your YAML file for crendentials inside ```/src``` folder following this format:
+
+Make sure to include your YAML file for crendentials as ```config.yaml``` inside ```/src``` folder following this format:
 
 ```yaml
 database:
@@ -45,6 +41,7 @@ database:
   port: 5432
   name: "db"
 ```
+
 
 ## Extract Stage
 Due to the sensitive data involved, the script 000_anonymized.py (along with 000_anonymized.sh) demonstrates how sensitive data is anonymized and transformed from raw semi-structured data into a tabular format represented in a CSV file with the features mentioned in the model card.
