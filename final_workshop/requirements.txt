@@ -1,0 +1,15 @@
+jupyter
+pyyaml
+pandas
+psycopg2
+sqlalchemy
+pydash
+# matplotlib
+# numpy
+# scipy
+# scikit-learn
+# seaborn
+# pymongo
+# pydot
+# plotly
+# python-dotenv
