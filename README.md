@@ -11,3 +11,23 @@ git clone https://github.com/mhenaora/ETL_course.git
 # Change to work directory
 cd ETL_course/final_workshop/
 ```
+
+## Workshops
+
+To excecute workshop please follow the [```workshop_1 README```](https://github.com/mhenaora/ETL_course/blob/main/workshops/workshop_1/README.md):
+
+```bash
+# Clone Repository
+git clone https://github.com/mhenaora/ETL_course.git
+# Change to work directory
+cd workshops/workshop_1/
+```
+
+To excecute workshop please follow the [```workshop_2 README```](https://github.com/mhenaora/ETL_course/blob/main/workshops/workshop_2/README.md):
+
+```bash
+# Clone Repository
+git clone https://github.com/mhenaora/ETL_course.git
+# Change to work directory
+cd workshops/workshop_2/
+```
