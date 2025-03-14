@@ -4,11 +4,12 @@ pandas
 psycopg2
 sqlalchemy
 pydash
-# matplotlib
-# numpy
-# scipy
-# scikit-learn
-# seaborn
+matplotlib
+numpy
+scipy
+scikit-learn
+seaborn
+ydata-profiling
 # pymongo
 # pydot
 # plotly
