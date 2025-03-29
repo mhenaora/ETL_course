@@ -56,3 +56,9 @@ The EDA reports for the staging tables and transform tables are in the [links be
 * [EDA_etl_staging_table_final_workshop](https://drive.google.com/file/d/11b6uNR4ldYpJKMj46Wj-c2HritL2tf6U/view?usp=sharing)
 * [EDA_etl_transform_table_final_workshop](https://drive.google.com/file/d/11YJEN0j4cMYquPAadG3F7P_URyMDv0kB/view?usp=drive_link)
 * [EDA_etl_transform_no_retries_table_final_workshop](https://drive.google.com/file/d/11oSa3zus3QgcRKIPVXJuf4mJn2-embUY/view?usp=sharing)
+
+## ETL Workflow
+The ETL workflow is executed running the bash script ```/src/000_etl.sh``` it launches a python script ```/src/000_etl.py```where all stages described before were automatically launched, it executes the staging, transform and load steps saving the output db ready to visualize are ```etl_transform_table_final_workshop``` and  ```etl_transform_no_retries_table_final_workshop```
+The Dashboard was built in PowerBi focusing on two tabs, one user client insights and the second one microservice API time execution
+
+All the reports mentioned are also in ```/docs```
